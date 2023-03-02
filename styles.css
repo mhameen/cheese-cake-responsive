@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.headding{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.sec-1{
+    display: flex;
+}
+
+.dots-img{
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.text{
+    margin-top: 10px;
+    font-size: 14px;
+    max-width: 300px;
+    margin-right: 10px;
+}
+.cake-image{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.fa-utensils{
+    font-size: 23px;
+    color: orangered;
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+.sec-2{
+    display: flex;
+}
+
+.serving{
+    color: orangered;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.list-1{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+.main-sec-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+.time-head{
+    font-size: 10px;
+    color: gray;
+    margin-left: -20px;
+}
+
+.time-des{
+    font-size: 13px;
+    margin-left: -20px;
+}
+
+.sub-sec{
+    line-height: 8px;
+}
+
+.sec-3{
+    margin-left: 10px;
+}
+
+label{
+    color: gray;
+    font-size: 15px;
+}
+
+.text-bold{
+    color: black;
+    font-weight: 700;
+}
+
+.text-left{
+    margin-left: 17px;
+}
+
+.ing-headding{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.side-headding{
+    margin-bottom: 15px;
+    color: gray;
+    font-weight: 600;
+}
+
+/* .text-line{
+    margin-top: 105px;
+} */
+
+.sec-4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cake-sec{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: gray;
+    font-weight: 600;
+}
+
+.alter{
+    color: gray;
+}
+
+.sec-5{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.sub-sec-5{
+    display: flex;
+}
+
+.inst-des{
+    margin-left: 20px;
+    font-size: 14px;
+    /* max-width: 210px; */
+    margin-bottom: 20px;
+}
+
+.fa-1{
+    color:orangered;
+}
