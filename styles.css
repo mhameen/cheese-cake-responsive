@@ -27,13 +27,13 @@ ul{
 .text{
     margin-top: 10px;
     font-size: 14px;
-    max-width: 300px;
+    /* max-width: 300px; */
     margin-right: 10px;
 }
 .cake-image{
+    display: block;
     width: 300px;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin: 20px auto;
     border-radius: 10px;
 }
 
@@ -145,9 +145,93 @@ label{
     margin-left: 20px;
     font-size: 14px;
     /* max-width: 210px; */
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.fa-1{
-    color:orangered;
+.box{
+    background-color:orangered;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px){
+        body{
+            margin-left: 180px;
+            margin-right: 180px;
+        }
+        .text{
+            max-width: 490px;
+            margin-bottom: 20px;
+        }
+        .headding{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .cake-image{
+            display: block;
+            width: 100%;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        .main-sec-2{
+            display:block;
+        } 
+        .background{
+            width: 150px;
+            height: 300px;
+            background-color:whitesmoke;
+            box-shadow: 10px 10px rgb(216, 213, 213);
+            border-radius: 10px;
+            float: right;
+        }
+        .left-part{
+            float: left;
+        }
+        .division{
+            display: flex;
+            /* justify-content: center; */
+
+        }
+        .sub-sec{
+            margin-left: 20px;
+        }
+        .fa-sharp{
+            font-size: 16px;
+            margin-left: 25px;
+            margin-top: -20px;
+            margin-right: 7px;
+        }
+        li{
+            font-size: 10px;
+        }
+        .serving{
+            font-size: 10px;
+        
+        }
+        .sec-2-1{
+            /* text-align: center; */
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+        .division{
+            margin-left: 25px;
+            margin-top: 40px;
+        }
+        .sub-sec{
+            line-height: 10px;
+
+        }
+        label{
+            line-height: 40px;
+            min-width:100px;
+        }
+        .fa-clock{
+            margin-right: 5px;
+        }
+        .inst-des{
+            width: 380px;
+        }
 }
